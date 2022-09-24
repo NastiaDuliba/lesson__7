@@ -1,0 +1,291 @@
+body {
+  font-family: "Lato";
+  color: #1e212c;
+}
+
+[class*="__container"] {
+  max-width: 820px;
+  margin: 0 auto;
+}
+/*==================header__nav==================*/
+.header__container {
+}
+.header__nav {
+}
+.header-nav__container {
+  display: inline-block;
+  margin: 20px 0 77px 0;
+  padding: 15px 0;
+}
+.header-nav__logo {
+  display: inline-block;
+  margin: 0 66px 0 0;
+}
+.header-nav__navigation a {
+  margin: 0 40px 0 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+.header-nav__navigation {
+  display: inline-block;
+}
+a.color-red {
+  color: #ff3f3a;
+}
+
+.arcticle__page {
+}
+.arctile__container {
+}
+.arcticle__header {
+}
+.arcticle-name img {
+  padding: 0 8px 0 0;
+}
+.arcticle-name {
+  display: inline-block;
+  color: #ff3f3a;
+  margin: 12px 0px;
+}
+.gray-text {
+  display: inline-block;
+  border-right: 1px solid #787a80;
+  padding: 0 12px 0 0;
+  color: #787a80;
+}
+.red-text {
+  margin: 0 0 0 12px;
+  display: inline-block;
+  color: #ff3f3a;
+}
+.arcticle-header__title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  margin: 0 0 26px 0;
+}
+.arcticle__meta {
+  color: #787a80;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0 0 40px 0;
+}
+.meta-date {
+  padding: 0 24px 0 0;
+  display: inline-block;
+}
+.meta-date__img {
+  display: inline-block;
+  line-height: 1;
+  padding: 0 8px 0 0;
+}
+.meta-date__text {
+  display: inline-block;
+}
+.meta-time {
+  display: inline-block;
+}
+.meta-time__img {
+  display: inline-block;
+  line-height: 1;
+  padding: 0 8px 0 0;
+}
+.meta-time__text {
+  display: inline-block;
+}
+/*пробувала зробити за допомогою бордера але не впевнена*/
+/*.meta-date {
+  display: inline-block;
+  padding: 0 24px 0 24px;
+  background: url("../img/vector/date.png") left no-repeat;}*/
+
+/*.meta-time {
+  padding: 0 0 0 24px;
+  display: inline-block;
+  background: url("../img/vector/clock.png") left no-repeat;
+}*/
+.arcticle-sharing {
+}
+.arcticle__sharing {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1e212c;
+  margin: 0 0 0 404px;
+}
+.arcticle-sharing img {
+}
+.arcticle-sharing {
+  display: inline-block;
+}
+.vector__icons {
+  display: inline-block;
+  padding: 3px 0;
+}
+
+.vector__facebook {
+  padding: 0 0 0 10px;
+}
+
+.vector__twitter {
+  padding: 0 0 0 10px;
+}
+.vector__in {
+  padding: 0 0 0 10px;
+}
+.arcticle-header__img {
+  margin: 0 0 60px 0;
+}
+.arcticle-header__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0 0 24px 0;
+}
+.arcticle-text__block {
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0 0 30px 0;
+}
+.arcticle-text_1 {
+  margin: 0 0 30px 0;
+}
+.arcticle-text_2 {
+}
+.arcticle__quotattion {
+  margin: 0 0 48px 0;
+}
+.quotattion-text {
+  padding: 0 0 0 58px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  background: url("../img/quotation/rectangle.png") 0 0 no-repeat,
+    url("../img/quotation/rectangle.png") 18px 0 no-repeat;
+}
+.arcticle__list {
+  font-size: 16px;
+  line-height: 160%;
+}
+.list-descripion {
+  margin: 0 0 24px 0;
+}
+.list {
+  margin: 0 0 24px 0;
+}
+.list__items {
+}
+.list__item {
+  background: url("../img/check.png") 0 center no-repeat;
+  padding: 0 0 0 32px;
+}
+.list__item:last-child {
+  margin: 0 0 0 0;
+}
+.arcticle-text_3 {
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0 0 60px 0;
+}
+
+.arcticle__footer {
+  margin: 0 0 50px 0;
+  display: inline-block;
+}
+.arcticle__tags {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.tags-text {
+  display: inline-block;
+}
+.arcticle-tags {
+  display: inline-block;
+}
+
+.arcticle-tags {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787a80;
+  border: 1px solid #d7dadd;
+  border-radius: 4px;
+  padding: 6px 16px;
+}
+.__learning {
+  margin: 0 0 0 10px;
+}
+.__hr {
+  margin: 0 0 0 10px;
+}
+.__self {
+  margin: 0 0 0 10px;
+}
+.arcticle__sharing-footer {
+  margin: 0 0 0 286px;
+  display: inline-block;
+}
+.tags-text {
+  color: #1e212c;
+}
+.home-work__page {
+}
+.home-work__container {
+}
+.background__block {
+  margin: 0 0 300px 0;
+  min-width: 100%;
+  min-height: 500px;
+  padding: 20px;
+
+  background: linear-gradient(
+    326deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(8, 134, 53, 1) 17%,
+    rgba(9, 121, 21, 1) 35%,
+    rgba(100, 38, 122, 1) 67%,
+    rgba(130, 7, 144, 1) 77%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.background-block__fixed {
+  min-height: 100px;
+  background: #ff3f3a url(../img/home-work/white-rat.jpeg) 0 0 / cover no-repeat;
+  background-attachment: fixed;
+}
+.background-block__repeat-x {
+  min-height: 100px;
+  background: url("../img/home-work/white-rat.jpeg") 0 0 / contain repeat-x;
+}
+.background-block__repeat-y {
+  max-width: 300px;
+  min-height: 200px;
+  background: url("../img/home-work/white-rat.jpeg") repeat-y 0 0 / 30px,
+    url("../img/home-work/white-rat.jpeg") repeat-x 0 0 / 30px;
+}
+.background-block__main-fixed {
+  min-height: 100px;
+  background: url(../img/home-work/white-rat.jpeg) 0 0 / cover no-repeat;
+  background-attachment: fixed;
+}
+.background-block__position {
+  border: 3px solid #ff3f3a;
+  min-height: 200px;
+  background: url("../img/home-work/white-rat.jpeg") 20px 20px / cover no-repeat,
+    url("../img/home-work/white-rat.jpeg") 50px 50px / contain no-repeat,
+    url("../img/home-work/white-rat.jpeg") 70px 90px / contain no-repeat;
+  background-size: 100px 100px;
+  background-color: #0d1a7a;
+}
+
+.background-block__foter-fixed {
+  min-height: 100px;
+  background: url(../img/home-work/white-rat.jpeg) 0 0 / cover no-repeat;
+  background-attachment: fixed;
+}
